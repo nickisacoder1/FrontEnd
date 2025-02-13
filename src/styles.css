@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.btn {
+  background-color: #0d6efd;
+  color: whitesmoke;
+  border-radius: 4px;
+  border: none;
+  padding: 7px;
+  cursor: pointer;
+  font-weight: 400;
+  margin-top: 15px;
+}
+.btn:hover {
+  background-color: #0b5ed7;
+}
+
+.msj {
+  border-color: chocolate;
+}
+.tlf {
+  border-color: chocolate;
+}
+
+.group {
+  margin: 20px 0px 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.app-image {
+  width: 500px;
+  height: 300px;
+  background-image: url("/chicken.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
