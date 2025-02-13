@@ -1,6 +1,6 @@
 export async function sendTextMessageToBandEnd(phoneNumber, message) {
   try {
-    const response = await fetch("https://kfp7yc-4000.csb.app/send", {
+    const response = await fetch("https://phone-web-app-backend.onrender.com/send", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
